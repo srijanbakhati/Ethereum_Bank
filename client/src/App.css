@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+*{
+  color:white;
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+.app{ 
+  
+}
+.navbar{
+  background-color:rgb(28, 11, 17) ;
+  padding:25px 20px;
+  box-shadow:10px 5px 5px rgb(27, 8, 10);
+}
+.nav-heading{
+  width:100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size:24px;
+  font-weight: bold;
+  align-items:center;
+ 
+}
+.logo{
+  width:50px;
+}
+.Deposit{
+  margin-top:3rem;
+   display:grid;
+   gap:2rem;
+}
+.Deposit input{
+  padding:5px 7px;
+  border-radius: 5px;
+  border:none;
+  background-color: white;
+  color:black;
+  font-weight: bolder;
+  border:2px solid rgb(28, 11, 17);
+  outline:1px solid rgb(112, 112, 114);
+}
+.Deposit label{
+  text-align: center;
+  margin-bottom:8px;
+  font-size: large;
+  font-weight: bolder;
+}
+.data{
+  width:60%;
+  display: flex;
+  flex-direction: column;
+  margin:auto;
+}
+.button{
+  background-color: rgb(0, 0, 0);
+  width: 50%;
+  margin: auto;
+  font-weight: bold;
+  
+}
+p{
+  margin-top:1.7rem;
+  font-size: 12px;
+  text-align: center;
+}
+.span{
+  margin-left:15px;;
+  color:rgb(222, 170, 133)
+}
+.bankData{
+  font-size: 12px;
+}
+table{
+  margin-top:10px;
+  padding:14px;
+}
+.bankData td{
+  padding:8px;
+}
+
+/* spacing */
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border: 3px solid purple;
+}
+
+thead th:nth-child(1) {
+  width: 30%;
+}
+
+thead th:nth-child(2) {
+  width: 20%;
+}
+
+thead th:nth-child(3) {
+  width: 15%;
+}
+
+thead th:nth-child(4) {
+  width: 35%;
+}
+
+th,
+td {
+  padding: 20px;
+}
+/* typography */
+
+html {
+  font-family: "helvetica neue", helvetica, arial, sans-serif;
+}
+
+thead th,
+tfoot th {
+  font-family: "Rock Salt", cursive;
+}
+
+th {
+  letter-spacing: 2px;
+}
+
+td {
+  letter-spacing: 1px;
+}
+
+tbody td {
+  text-align: center;
+}
+
+tfoot th {
+  text-align: right;
+}
+/* graphics and colors */
+
+thead,
+tfoot {
+  background: url(leopardskin.jpg);
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+
+thead th,
+tfoot th,
+tfoot td {
+  background: linear-gradient(to bottom, rgb(0 0 0 / 10%), rgb(0 0 0 / 50%));
+  border: 3px solid purple;
+}
+
+caption{
+  font-family: "Rock Salt", cursive;
+  padding: 20px;
+  font-size: large;
+  font-style: italic;
+  color: white;
+  letter-spacing: 1px;
+}
